@@ -31,9 +31,9 @@ public class ListAccountActivity extends AppCompatActivity {
 
     private void loadFakeData(){
 
-        Account myAccount1 = new Account("Bancolombia", "Cuenta de Ahorros", 11111111.0);
-        Account myAccount2 = new Account("Davivienda", "Cuenta debito", 222222222.0);
-        Account myAccount3 = new Account("Efectivo", "Efectivo", 333333333.0);
+        Account myAccount1 = new Account("Bancolombia", "Cuenta de Ahorros", 11111111.0, "https://i.pinimg.com/originals/b8/cd/c1/b8cdc1ad498fe080bc21bb5a03c24f83.png");
+        Account myAccount2 = new Account("Davivienda", "Cuenta debito", 222222222.0, "https://s3.amazonaws.com/lacabinadavivienda.com/projects/assets_generales/img/logo-davivienda.png")   ;
+        Account myAccount3 = new Account("Efectivo", "Efectivo", 333333333.0, "https://cdn-icons-png.flaticon.com/512/2331/2331941.png");
         listAccountRV.add(myAccount1);
         listAccountRV.add(myAccount2);
         listAccountRV.add(myAccount3);

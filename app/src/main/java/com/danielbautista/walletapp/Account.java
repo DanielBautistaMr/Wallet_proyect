@@ -5,10 +5,21 @@ public class Account {
     private String type;
     private Double currentValue;
 
-    public Account(String name, String type, Double currentValue) {
+    private String imageUrl;
+
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public Account(String name, String type, Double currentValue, String imageUrl) {
         this.name = name;
         this.type = type;
         this.currentValue = currentValue;
+        this.imageUrl = imageUrl;
     }
 
     public String getName() {
