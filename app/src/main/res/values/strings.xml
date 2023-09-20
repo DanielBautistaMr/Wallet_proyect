@@ -1,6 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Wallet App</string>
-    <string name="text_new_account">Nueva Cuenta</string>
-    <string name="btn_new_account">Guardar</string>
-
+    <string-array name="color_options">
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <!-- Agrega más opciones de colores según tus necesidades -->
+    </string-array>
 </resources>

@@ -1,6 +1,5 @@
 package com.danielbautista.walletapp;
 
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -52,7 +51,7 @@ public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHold
             tvNameAccount = itemView.findViewById(R.id.tv_item_name_account);
             tvTypeAccount = itemView.findViewById(R.id.tv_item_type_account);
             tvCurrentValue = itemView.findViewById(R.id.tv_item_balance_account);
-            ivPrincial = itemView.findViewById(R.id.iv_item_account);
+            ivPrincial = itemView.findViewById(R.id.restaurant_image);
 
 
         }
